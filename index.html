@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>F1 2024 | Home</title>
+  <link rel="stylesheet" href="style.css"/>
+  <style>
+    .hero-section {
+      text-align: center;
+    }
+
+    .hero-images {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+      margin-top: 1rem;
+    }
+
+    .hero-img {
+      width: 300px;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+  </style>
+</head>
+<body class="home-bg">
+  <header>Formula 1</header>
+  <nav>
+    <a href="index.html" class="active">Home</a>
+    <a href="drivers.html">Drivers</a>
+    <a href="schedule.html">Races</a>
+    <a href="teams.html">Teams</a>
+  </nav>
+
+  <div class="container">
+    <!-- Spotlight Hero -->
+    <section class="hero-section">
+      <h2>June 2024 Highlights</h2>
+      <div class="hero-images">
+        <div>
+          <h3>Spanish GP</h3>
+          <img src="team/spain_gp_banner.jpg" alt="Spanish GP" class="hero-img"/>
+        </div>
+        <div>
+          <h3>Canadian GP</h3>
+          <img src="team/canadian_gp.webp" alt="Canadian GP" class="hero-img"/>
+        </div>
+        <div>
+          <h3>Austrian GP</h3>
+          <img src="team/Austrian gp.jpg" alt="Austrian GP" class="hero-img"/>
+        </div>
+      </div>
+      <p>Spain, Canada, Austria — three iconic Grand Prix weekends that reshaped the championship.</p>
+    </section>
+
+    <!-- Embedded Video Highlights -->
+    <section id="videos" class="video-section">
+      <h3>Watch the Action</h3>
+      <a href="https://www.youtube.com/watch?v=ojUQLuSqV4s" class="btn">Spanish GP Watch Highlights</a><br>
+      <a href="https://www.youtube.com/watch?v=5K2cVzalNm0" class="btn">Canadian GP Watch Highlights</a><br>
+      <a href="https://www.youtube.com/watch?v=b0yb1zH2m7c" class="btn">Austrian GP Watch Highlights</a>
+    </section>
+
+    <!-- June 2024 News -->
+    <section class="news-section">
+      <h3>June Race Reports & Headlines</h3>
+
+      <article class="news-item">
+        <h4>Verstappen wins in Spain after intense Norris duel</h4>
+        <p>Max Verstappen fended off Lando Norris to claim victory at the Barcelona GP, while Hamilton returned to the podium — his first of the season.</p>
+      </article>
+
+      <article class="news-item">
+        <h4>Russell dominates Montreal chaos</h4>
+        <p>George Russell emerged victorious at the Canadian GP, which saw a dramatic safety car, wet start, and Russell’s first win of the season.</p>
+      </article>
+
+      <article class="news-item">
+        <h4>Groundhog disrupts Hamilton’s car</h4>
+        <p>Lewis Hamilton's race in Canada was compromised after colliding with a groundhog costing him half a second per lap.</p>
+      </article>
+
+      <article class="news-item">
+        <h4>Haas & Norris incidents stir drama</h4>
+        <p>McLaren’s Pascal Piastri benefitted from teammates colliding, while Haas and other drivers faced chaos during the Canadian GP.</p>
+      </article>
+    </section>
+
+    <!-- June Race Calendar -->
+    <section class="upcoming-section">
+      <h3>June 2024 Recap</h3>
+      <ul>
+        <li><strong>June 9 – Canadian GP</strong>: Rain-wet conditions, Russell takes lead, Verstappen engineered a daring win.</li>
+        <li><strong>June 23 – Spanish GP</strong>: A fierce duel sees Verstappen hold Norris at bay before Hamilton resurfaces on podium.</li>
+        <li><strong>June 30 – Austrian GP</strong>: Russell claimed victory following a late collision between Verstappen and Norris.</li>
+      </ul>
+    </section>
+  </div>
+</body>
+</html>
