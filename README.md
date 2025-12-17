@@ -33,5 +33,5 @@ Add screenshots or a link to your live site (if hosted).
 Clone this repo and open `index.html` in your browser.
 
 ```bash
-git clone [https://github.com/yourusername/f1-2024-website.git]
+git clone [https://github.com/hasvanthp/f1-2024-website.git]
 cd f1-2024-website
